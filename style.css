@@ -12,6 +12,12 @@ header {
     text-align: center;
 }
 
+header {
+  background-image: url('images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -52,5 +58,6 @@ footer {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 
 
