@@ -45,3 +45,12 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Brand selalu uppercase */
+.brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
