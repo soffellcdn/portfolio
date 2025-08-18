@@ -13,7 +13,7 @@ header {
 }
 
 header {
-  background-image: url('images/header-bg.jpg');
+  background-image: url('images/header-bg.png');
   background-size: cover;
   background-position: center;
 }
@@ -58,6 +58,7 @@ footer {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 
 
 
