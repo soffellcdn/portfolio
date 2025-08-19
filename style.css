@@ -122,3 +122,63 @@ footer {
     color: #fff;
     font-size: 0.9em;
 }
+
+/* =========================
+   Responsive / Mobile-Friendly
+   ========================= */
+@media (max-width: 768px) {
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  header h2 {
+    font-size: 1.2em;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    padding: 12px 0;
+  }
+
+  .portfolio img {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  a.whatsapp-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  section h1, section h2, section h3 {
+    font-size: 1.2em;
+  }
+
+  section p, section ul li {
+    font-size: 0.95em;
+  }
+}
+
+
