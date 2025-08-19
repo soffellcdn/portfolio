@@ -12,6 +12,33 @@
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
+  <style>
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: #add8e6;
+  padding: 0.5px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.marquee p {
+  display: inline-block;
+  padding-left: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  animation: marquee 100s linear infinite;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+</style>
+
   <!-- Schema.org untuk SEO -->
   <script type="application/ld+json">
   {
@@ -87,6 +114,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
