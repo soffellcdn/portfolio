@@ -8,23 +8,23 @@
   <link rel="stylesheet" href="style.css">
 
   <style>
-.marquee {
-  width: 80%;            
-  overflow: hidden;       
+  .marquee {
+  width: 80%;            /* penuh */
+  overflow: hidden;       /* sembunyikan teks keluar */
   white-space: nowrap;
   box-sizing: border-box;
-  background: rgba(173, 216, 230, 0.4);   /* biru muda transparan */
-  padding: 4px 0;                          /* lebih tipis biar nggak tinggi banget */
-  border-top: 1px solid #ddd;              /* garis tipis atas */
-  border-bottom: 1px solid #ddd;           /* garis tipis bawah */
+  background: transparent; /* transparan total */
+  padding: 4px 0;          /* tipis biar gak terlalu tinggi */
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .marquee p {
   display: inline-block;
-  padding-left: 100%;      
-  font-size: 16px;         /* sedikit lebih kecil biar enak dibaca */
+  padding-left: 100%;      /* mulai dari kanan */
+  font-size: 16px;
   font-weight: bold;
-  color: #222;
+  color: #333;
   animation: marquee 100s linear infinite;
 }
 
@@ -32,8 +32,7 @@
   0%   { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
-</style>
-  
+</style>  
 </head>
 <body>
   
@@ -69,6 +68,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
