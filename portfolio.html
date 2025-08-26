@@ -96,85 +96,94 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
     </section>
 
     <style>
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* 👉 biar bisa geser di HP */
+  }
+
   table.proses-desain {
     width: 100%;
+    max-width: 800px; /* 👉 batas lebar tabel */
+    margin: 20px auto;
     border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+    font-size: 14px;
+    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
+
   table.proses-desain thead {
-    background: #f8f9fa;
+    background: #6ec1f7; /* 👉 biru muda */
+    color: #fff;
   }
-  table.proses-desain th {
-    padding: 10px 14px;
-    text-align: left;
-    font-weight: bold;
-    color: #333;
-  }
+
+  table.proses-desain th,
   table.proses-desain td {
-    padding: 10px 14px;
-    border-top: 1px solid #eee;
+    padding: 10px 12px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
   }
+
   table.proses-desain tbody tr:nth-child(even) {
-    background: #fafafa;
+    background: #f1faff; /* 👉 biru muda sangat soft */
   }
+
   table.proses-desain td:first-child {
     text-align: center;
-    font-weight: 600;
-    color: #444;
+    font-weight: bold;
     width: 50px;
+    background: #eaf6ff; /* 👉 nomor tahap beda dikit */
   }
 </style>
 
-<table class="proses-desain">
-  <thead>
-    <tr>
-      <th>Tahap</th>
-      <th>Apa yang Dilakukan</th>
-      <th>Hasil yang Diterima Klien</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Klien pesan / ajukan kebutuhan</td>
-      <td>Brief / Deskripsi proyek</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Diskusi & kesepakatan</td>
-      <td>Harga + Timeline disetujui</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Desainer buat konsep / draft</td>
-      <td>Draft desain awal</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Revisi sesuai masukan klien</td>
-      <td>Desain yang diperbaiki</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Finalisasi desain</td>
-      <td>File desain final</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Serah terima file</td>
-      <td>PNG, JPG, PDF, AI, dsb.</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Proyek selesai</td>
-      <td>Feedback / Testimoni</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-wrapper">
+  <table class="proses-desain">
+    <thead>
+      <tr>
+        <th>Tahap</th>
+        <th>Apa yang Dilakukan</th>
+        <th>Hasil yang Diterima Klien</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Klien pesan / ajukan kebutuhan</td>
+        <td>Brief / Deskripsi proyek</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Diskusi & kesepakatan</td>
+        <td>Harga + Timeline disetujui</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Desainer buat konsep / draft</td>
+        <td>Draft desain awal</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Revisi sesuai masukan klien</td>
+        <td>Desain yang diperbaiki</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Finalisasi desain</td>
+        <td>File desain final</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Serah terima file</td>
+        <td>PNG, JPG, PDF, AI, dsb.</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Proyek selesai</td>
+        <td>Feedback / Testimoni</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
   
     <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; max-width:1000px; margin:auto; font-family:Arial,sans-serif;">
 
@@ -363,6 +372,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
