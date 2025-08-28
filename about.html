@@ -38,7 +38,7 @@
   100% { transform: translateX(-100%); }
 }
 
-    /* --- Styling Body & Konten --- */
+   /* --- Styling Body & Konten --- */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -66,12 +66,23 @@ section:hover {
   box-shadow: 0 8px 18px rgba(0,0,0,0.12);
 }
 
+/* Judul section dengan garis bawah biru */
 main h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
   color: #1e3a8a;
-  border-left: 5px solid #2563eb;
-  padding-left: 12px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+main h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #2563eb;
+  margin: 8px auto 0;
+  border-radius: 2px;
 }
 
 main ul {
@@ -98,6 +109,7 @@ main a:hover {
   color: #1e40af;
   border-bottom: 1px solid #1e40af;
 }
+
 </style>
 
   <!-- Schema.org untuk SEO -->
@@ -180,6 +192,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
