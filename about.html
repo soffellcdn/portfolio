@@ -9,16 +9,20 @@
   <!-- Font Google -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+ <!-- CSS eksternal -->
+<link rel="stylesheet" href="style.css">
 
-  <style>
+<!-- CSS tambahan -->
+<style>
+/* ===================== */
+/* Marquee (teks berjalan) */
+/* ===================== */
 .marquee {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
-  background: #add8e6;
+  background: #add8e6; /* biru muda */
   padding: 0.5px 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -33,12 +37,15 @@
   animation: marquee 100s linear infinite;
 }
 
+/* Animasi marquee */
 @keyframes marquee {
   0%   { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
 
-    /* Section wrapper */
+/* ===================== */
+/* Section wrapper (bungkus konten utama) */
+/* ===================== */
 .card-section {
   padding: 40px 20px;
   background: #f5f7fa; /* warna lembut netral */
@@ -54,7 +61,9 @@
   font-weight: bold;
 }
 
-/* Card style */
+/* ===================== */
+/* Card style (kotak konten) */
+/* ===================== */
 .card {
   background: #fff;
   border-radius: 12px;
@@ -65,12 +74,12 @@
   line-height: 1.6;
 }
 
-/* List */
+/* List di dalam card */
 .card ul {
   padding-left: 20px;
 }
 
-/* Image style */
+/* Gambar di dalam card */
 .card img {
   display: block;
   margin: 20px auto;
@@ -78,7 +87,33 @@
   height: auto;
   border-radius: 8px;
 }
- </style>
+
+/* ===================== */
+/* Tabel fitur */
+/* ===================== */
+.feature-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header tabel */
+.feature-table thead th {
+  background-color: #e3f2fd; /* biru muda */
+  color: #333;
+  text-align: left;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Isi tabel */
+.feature-table td {
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+</style>
 
 </head>
 <body>
@@ -159,5 +194,6 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
