@@ -42,77 +42,19 @@
   0%   { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
-
-/* ===================== */
-/* Section wrapper (bungkus konten utama) */
-/* ===================== */
-.card-section {
-  padding: 40px 20px;
-  background: #f0f0f0; /* abu-abu muda */
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-
-/* Judul section */
-.card-section h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #222;
-  font-weight: bold;
-}
-
-/* ===================== */
-/* Card style (kotak konten) */
-/* ===================== */
-.card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  line-height: 1.6;
-}
-
-/* List di dalam card */
-.card ul {
-  padding-left: 20px;
-}
-
-/* Gambar di dalam card */
-.card img {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-/* ===================== */
-/* Tabel fitur */
-/* ===================== */
-.feature-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 15px;
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: #e0e0e0; /* abu-abu lebih pekat */
 }
-
-  /* Header tabel */
-.feature-table thead th {
-  background-color: #add8e6; /* biru muda */
-  color: #333;
-  text-align: left;
-  padding: 10px;
-  font-size: 16px;
-}
-
-/* Isi tabel */
-.feature-table td {
-  background: #ffffff; /* putih biar kontras dengan header biru */
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-}
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;   /* putih container */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
 </style>
 
 </head>
@@ -138,6 +80,9 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
     </nav>
 
     <main>
+      <!-- MULAI container putih -->
+  <div class="container">
+    
   <!-- Visi & Misi -->
   <section id="visi-misi" class="card-section">
     <h2>Visi & Misi <strong class="brand">Star Lights Design</strong></h2>
@@ -187,6 +132,8 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
       <a href="contact.html">Hubungi kami sekarang!</a></p>
     </div>
   </section>
+    </div>
+  <!-- AKHIR container putih -->
 </main>
 
   <footer>
@@ -194,6 +141,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
