@@ -64,28 +64,29 @@
     }
 
 	nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;    /* agar link vertikalnya juga ter-center */
-  gap: 20px;
-  background: #1976d2;     /* biru */
+  display: flex;               /* bikin flex container */
+  flex-direction: row;         /* paksa selalu horizontal */
+  justify-content: center;     /* rata tengah */
+  align-items: center;         /* rata tengah secara vertikal */
+  gap: 20px;                   /* jarak antar menu */
+  background: #1976d2;
   padding: 10px;
-  overflow-x: auto;        /* bikin navbar bisa di-scroll ke samping kalau sempit */
-  white-space: nowrap;     /* cegah menu turun ke bawah */
+  overflow-x: auto;            /* kalau sempit, bisa geser ke samping */
+  white-space: nowrap;         /* cegah turun ke bawah */
 }
 
 nav a {
-  display: inline-block;   /* penting supaya link nggak melebar jadi block */
+  display: inline-block;       /* jangan block penuh */
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   padding: 8px 12px;
-  transition: background 0.3s, color 0.3s;
-  white-space: nowrap;     /* cegah tulisan pecah baris */
+  transition: 0.3s;
+  white-space: nowrap;         /* cegah teks pecah baris */
 }
 
 nav a:hover {
-  background: #1565c0;     /* sedikit lebih gelap warnanya saat hover */
+  background: #1565c0;
   border-radius: 6px;
 }
 
@@ -180,6 +181,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
 </body>
     
 </html>
+
 
 
 
