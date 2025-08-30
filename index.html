@@ -90,6 +90,19 @@ nav a:hover {
   border-radius: 6px;
 }
 
+header {
+  width: 100%;
+  min-height: 200px;
+  background: url('header-image.png') no-repeat center center;
+  background-size: cover;   /* default desktop */
+}
+
+@media (max-width: 768px) {
+  header {
+    background-size: contain; /* HP selalu utuh */
+    background-color: #000;   /* isi ruang kosong */
+  }
+
 </style>
   
 </head>
@@ -181,6 +194,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
 </body>
     
 </html>
+
 
 
 
