@@ -78,18 +78,11 @@ nav a:hover {
 
      header {
   width: 100%;
-  overflow: hidden;       /* biar nggak ada bagian nyembul keluar layar */
-  text-align: center;     /* isi header rata tengah */
-  box-sizing: border-box;
+  height: 200px; /* bisa kamu atur sesuai tinggi header */
+  background: url('header-image.png') no-repeat center center;
+  background-size: contain;  /* gambar selalu utuh */
+  background-color: #000;    /* warna latar jika ada ruang kosong */
 }
-
-header img {
-  max-width: 100%;        /* gambar otomatis menyesuaikan layar */
-  height: auto;
-  display: block;
-  margin: 0 auto;         /* biar selalu center */
-}
-
 
 </style>
   
@@ -147,6 +140,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
   </footer>
 </body>
 </html>
+
 
 
 
