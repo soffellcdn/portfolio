@@ -90,6 +90,29 @@ nav a:hover {
   border-radius: 6px;
 }
 
+header {
+  width: 100%;
+  min-height: 250px;
+  background: url('https://raw.githubusercontent.com/soffellcdn/soffellcdn.github.io/refs/heads/main/images/header-bg.png')
+              no-repeat center center;
+  background-size: cover; /* default desktop */
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+/* khusus layar HP */
+@media (max-width: 768px) {
+  header {
+    background-size: contain; /* gambar utuh */
+  }
+}
+
 </style>
   
 </head>
@@ -181,6 +204,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
 </body>
     
 </html>
+
 
 
 
