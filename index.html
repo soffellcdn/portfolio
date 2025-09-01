@@ -95,8 +95,8 @@ header {
   min-height: 250px;
   background: url('https://raw.githubusercontent.com/soffellcdn/soffellcdn.github.io/refs/heads/main/images/header-bg.png')
               no-repeat center center;
-  background-size: contain;
-  background-color: #000;
+  background-size: contain;  /* Desktop: gambar utuh */
+  background-color: #000;    
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,10 +106,11 @@ header {
   padding: 20px;
 }
 
-/* HP → tambah tinggi supaya gambar gak keliatan kecil */
+/* HP → pakai cover biar penuh, gak ada bar hitam */
 @media (max-width: 768px) {
   header {
-    min-height: 350px; /* tambah tinggi biar gambar lebih “penuh” */
+    min-height: 350px;
+    background-size: cover;   /* gambar isi penuh layar HP */
   }
 
 </style>
@@ -203,6 +204,7 @@ pembuatan curiculum vitae, editing foto, kalender, dan semua kebutuhan desain gr
 </body>
     
 </html>
+
 
 
 
